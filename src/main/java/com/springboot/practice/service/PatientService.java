@@ -18,6 +18,7 @@ import com.springboot.practice.repository.PatientRepository;
 public class PatientService {
 	private static final Logger loggerInfo = LoggerFactory.getLogger(PatientService.class);
 
+	
 	@Autowired
 	private PatientRepository patientRepo;
 

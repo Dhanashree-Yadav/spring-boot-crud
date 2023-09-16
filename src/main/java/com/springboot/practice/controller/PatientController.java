@@ -23,7 +23,6 @@ import com.springboot.practice.service.PatientService;
 @RequestMapping("/api/patient")
 public class PatientController {
 
-	
 	@Autowired
 	private PatientService patientService;
 	

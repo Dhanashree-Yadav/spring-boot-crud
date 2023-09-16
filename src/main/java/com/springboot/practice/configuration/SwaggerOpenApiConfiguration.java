@@ -9,6 +9,7 @@ import io.swagger.v3.oas.models.info.Info;
 @Component
 public class SwaggerOpenApiConfiguration {
 
+
 	@Bean
 	public OpenAPI PatientOpenApi() {
 		return new OpenAPI()

@@ -20,7 +20,6 @@ import jakarta.persistence.Table;
 @Table(name = "patient")
 @EntityListeners(AuditingEntityListener.class)
 public class Patient {
-
 	@Id
 	@GeneratedValue(strategy = GenerationType.UUID)
 	// @GeneratedValue(generator = "uuid-hibernate-generator")

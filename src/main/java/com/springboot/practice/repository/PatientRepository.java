@@ -11,7 +11,6 @@ import com.springboot.practice.model.Patient;
 
 @Repository
 public interface PatientRepository extends JpaRepository<Patient, UUID>{
-
 	Optional<Patient> findById(UUID id);
 
 	
